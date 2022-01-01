@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "terrestrial_agriculture",
+  "version": "${version}",
+
+  "name": "Terrestrial Agriculture",
+  "description": "Fabric mod with a progressive tech tree, colorful biomes, unique crops and more.",
+  "authors": [
+    "Peakstep",
+    "MikhailTapio",
+    "GregTao"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/terrestrial_agriculture/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.intelligentcreations.teragr.TerAgr"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  }
+}
